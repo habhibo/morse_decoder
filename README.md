@@ -1,6 +1,6 @@
 
 # Morse Decoder App
-Morse Decoder is a mobile application designed to translate Morse code, including the ability to decode Morse code from a flickering flashlight using your device's camera.
+Morse Decoder is a mobile application designed to translate Morse code, including the ability to decode Morse code from a flickering flashlight using your device's camera. Made by Iheb Mechergui for an Upwork client.
 
 # Technical Characteristics
 App Name:
@@ -72,4 +72,14 @@ A question mark icon in the upper-right corner of the screen header opens the Gu
 
 # 6. Guide
 This screen provides information on how to use the decryption function. Users can receive a signal from a distance and decipher it by pointing the camera at the light source. The app will then translate the received information into the chosen language. To send a message, users can play the cipher with the device's flashlight on the translation screen.
+
+# Screenshots
+![image](https://github.com/user-attachments/assets/de99336f-5338-40b8-ba8b-c0e1e62f3e91)
+![image](https://github.com/user-attachments/assets/350c2c8c-56ee-4eb9-a6bd-fd660e33f76d)
+![image](https://github.com/user-attachments/assets/7f2982df-0e0c-45c4-b98e-ec6c6d33ea43)
+![image](https://github.com/user-attachments/assets/2f8c520f-ac97-4cd2-8c29-9643fc6c0b87)
+
+
+
+
 

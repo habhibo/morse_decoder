@@ -1,211 +1,75 @@
-#Morse Decoder
 
-Overview
+# Morse Decoder App
+Morse Decoder is a mobile application designed to translate Morse code, including the ability to decode Morse code from a flickering flashlight using your device's camera.
 
-Morse Decoder is a mobile application that translates Morse code into text, with a unique feature of decoding Morse code from a flickering flashlight using the device's camera. The app supports both Android and iOS platforms and is built using Unity or Flutter frameworks.
+# Technical Characteristics
+App Name:
+Store Name: Morse Decoder 
+Desktop Name: Decoder 
+Bundle ID: com.MorseDecoder.MD1605 
+UI: Figma Morse Decoder 
+Operating System (OS): Android, iOS 
+Framework: Unity/Flutter 
+minSDK version: 26 
+API Level: 34 
+iOS Version Compatibility: No higher than 13-16 
+Screen Orientation: Vertical 
+Number of Screens: 6 
+Languages: English 
+Required Permissions: Access to the flashlight 
+App Description and Unique Selling Proposition (USP)
+This application serves as a Morse code translator with a unique capability: it can read Morse code from the flicker of a flashlight using the device's camera.
 
-Features
+# Screen Scheme
+The app consists of the following screens:
 
+# Menu 
+Favourites 
+Translate 
+Decryptor 
+Guide 
+Add language 
+Screens and Buttons
 
+# 1. Menu
+The Menu is not a separate screen but a panel at the bottom of the screen containing icons for switching to different screens. It includes buttons for:
 
+Translate 
+Decryptor 
+Favourite 
 
+# 2. Translate
+This screen hosts the translator functionality.
 
-Real-time Morse Code Translation: Decode Morse code signals captured via the device's camera.
+# 3. Add Language
+On this screen, users can add a new language, edit an existing one, or add new characters. Clicking on an existing language allows for editing. Each symbol has a function to play it with a vibrator or flashlight.
 
 
+# 4. Favourites
+This screen displays all saved translations in a list. Tapping on a saved text opens it in the translation screen.
 
-Flashlight Integration: Requires access to the device's flashlight for signal input.
 
+# 5. Decryptor
+This is the main feature of the application, incorporating a decoder that uses machine vision.
 
 
-Multi-language Support: Currently supports English, with an option to add more languages.
+At the top of the screen, the user selects the language for translation.
 
 
 
-User-friendly Interface: Includes six screens: Menu, Favourites, Translate, Decryptor, Guide, and Add Language.
+The user sees what their camera sees, and they need to point the camera at the source of information to perform a decryption.
 
 
+The received text is displayed in a field below.
 
-Screen Orientation: Vertical orientation for optimal user experience.
 
+A start/end button for receiving information is located in the lower part of the screen.
 
 
-Guide Pop-up: Accessible via a question mark in the Decryptor screen for user assistance.
+When the camera is pointed at a flickering flashlight and information reception is activated, the app recognizes the transmitted symbol and converts it into text, displaying the result in the lower field.
 
-Technical Specifications
+A question mark icon in the upper-right corner of the screen header opens the Guide pop-up window.
 
+# 6. Guide
+This screen provides information on how to use the decryption function. Users can receive a signal from a distance and decipher it by pointing the camera at the light source. The app will then translate the received information into the chosen language. To send a message, users can play the cipher with the device's flashlight on the translation screen.
 
-
-
-
-App Name: Morse Decoder (Store), Decoder (Desktop)
-
-
-
-Bundle ID: com.MorseDecoder.MD1605
-
-
-
-Operating Systems: Android (minSDK 26, API Level 34), iOS (versions 13-16)
-
-
-
-Framework: Unity or Flutter
-
-
-
-UI: Enigma Morse Decoder
-
-
-
-Screens: 6 (Menu, Favourites, Translate, Decryptor, Guide, Add Language)
-
-
-
-Languages: English
-
-Screen Descriptions
-
-
-
-
-
-Menu: A bottom panel with icons for navigating to other screens.
-
-
-
-Favourites: Displays a list of saved translations, clickable to open in the Translate screen.
-
-
-
-Translate: Hosts the Morse code translator functionality.
-
-
-
-Decryptor: The core feature, using machine vision to decode Morse code from flashlight signals. Includes:
-
-
-
-
-
-Language selection at the top.
-
-
-
-Camera feed display.
-
-
-
-Text output field for decoded messages.
-
-
-
-Start/End button for signal reception.
-
-
-
-Guide pop-up accessible via a question mark in the header.
-
-
-
-Guide: Provides instructions on using the app, particularly for decoding signals.
-
-
-
-Add Language: Allows users to add support for additional languages.
-
-Installation
-
-
-
-
-
-Clone the repository:
-
-git clone https://github.com/username/morse-decoder.git
-
-
-
-Navigate to the project directory:
-
-cd morse-decoder
-
-
-
-Follow the setup instructions for your chosen framework (Unity or Flutter):
-
-
-
-
-
-Unity: Open the project in Unity Editor, configure for Android/iOS, and build.
-
-
-
-Flutter: Run flutter pub get to install dependencies, then build for Android/iOS using flutter run.
-
-Usage
-
-
-
-
-
-Launch the app on your Android or iOS device.
-
-
-
-Grant camera and flashlight permissions when prompted.
-
-
-
-Navigate to the Decryptor screen.
-
-
-
-Point the camera at a flickering flashlight transmitting Morse code.
-
-
-
-Press the Start button to begin decoding.
-
-
-
-View the translated text in the output field.
-
-
-
-Save translations to Favourites or access the Guide for help.
-
-Contributing
-
-Contributions are welcome! Please follow these steps:
-
-
-
-
-
-Fork the repository.
-
-
-
-Create a new branch (git checkout -b feature/new-feature).
-
-
-
-Make your changes and commit (git commit -m "Add new feature").
-
-
-
-Push to the branch (git push origin feature/new-feature).
-
-
-
-Open a pull request.
-
-License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Contact
-
-For questions or support, please open an issue on GitHub or contact the maintainers.
